@@ -40,10 +40,10 @@ python ngram_text_classification.py
 
 ## Outputs
 
-- `original_class_distribution.png`: Shows the distribution of news categories before balancing.
-- `LinearSVC_confusion_matrix.png`, `AdaBoost_confusion_matrix.png`, `XGBoost_confusion_matrix.png`: Confusion matrices for each model.
-- `LinearSVC_classification_report.json`, `AdaBoost_classification_report.json`, `XGBoost_classification_report.json`: Detailed classification metrics for each model.
-- `model_comparison.png`: Bar plot comparing accuracy and macro F1-score for all models.
+- `/pictures/original_class_distribution.png`: Shows the distribution of news categories before balancing.
+- `/pictures/LinearSVC_confusion_matrix.png`, `/pictures/AdaBoost_confusion_matrix.png`, `/pictures/XGBoost_confusion_matrix.png`: Confusion matrices for each model.
+- `/reports/LinearSVC_classification_report.json`, `/reports/AdaBoost_classification_report.json`, `/reports/XGBoost_classification_report.json`: Detailed classification metrics for each model.
+- `/pictures/model_comparison.png`: Bar plot comparing accuracy and macro F1-score for all models.
 
 ## Results and Analysis
 
@@ -98,22 +98,22 @@ The original class distribution visualization shows the dataset was imbalanced b
 
 **Class Distribution:**
 
-![Class Distribution](original_class_distribution.png)
+![Class Distribution](/pictures/original_class_distribution.png)
 
 **Confusion Matrices:**
 
 LinearSVC:
-![LinearSVC Confusion Matrix](LinearSVC_confusion_matrix.png)
+![LinearSVC Confusion Matrix](/pictures/LinearSVC_confusion_matrix.png)
 
 AdaBoost:
-![AdaBoost Confusion Matrix](AdaBoost_confusion_matrix.png)
+![AdaBoost Confusion Matrix](/pictures/AdaBoost_confusion_matrix.png)
 
 XGBoost:
-![XGBoost Confusion Matrix](XGBoost_confusion_matrix.png)
+![XGBoost Confusion Matrix](/pictures/XGBoost_confusion_matrix.png)
 
 **Model Comparison:**
 
-![Model Comparison](model_comparison.png)
+![Model Comparison](/pictures/model_comparison.png)
 
 ## License
 
