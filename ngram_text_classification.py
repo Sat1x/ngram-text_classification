@@ -30,7 +30,7 @@ def preprocess(text):
     return ' '.join(filtered)
 
 # Load dataset
-with open('/home/ivan-koptiev/Codes/Codes/portfolio website/github projects/NLP_n_grams/news_dataset.json', 'r') as f:
+with open('news_dataset.json', 'r') as f:
     df = pd.read_json(f)
 
 # Visualize class distribution before balancing
