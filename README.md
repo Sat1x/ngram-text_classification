@@ -13,6 +13,8 @@ I wanted to explore how different machine learning models perform on news catego
 - Models: LinearSVC, AdaBoost, XGBoost
 - Evaluation: Classification report, confusion matrix, model comparison
 - Visualizations: Class distribution, confusion matrices, model comparison plot
+- Check out /pictures/ folder for all pictures mentioned and showed
+- Check out /report/ folder for all classification reports for each model
 
 ## Dataset
 
