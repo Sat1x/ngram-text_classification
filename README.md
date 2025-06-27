@@ -32,7 +32,7 @@ python -m nltk.downloader punkt stopwords wordnet
 
 -Clone repository:
 ```bash
-git clone "https://github.com/Sat1x/ngram-text_classification"
+git clone "https://github.com/Ivan-Koptiev/ngram-text_classification"
 ```
 
 -Run:
